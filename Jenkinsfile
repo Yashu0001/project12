@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('check out') {
+    stage('check out file 2') {
       steps {
-        git(url: 'https://github.com/Yashu0001/project12', branch: 'dev')
+        git(url: 'https://github.com/Yashu0001/project12.git', branch: 'main')
       }
     }
 
